@@ -9,3 +9,5 @@ out.html:
 	@$(ASCIIDOCTOR) \
 		--out-file=$(INPUTDIR)/out.html \
 		$(wildcard *.adoc)
+
+

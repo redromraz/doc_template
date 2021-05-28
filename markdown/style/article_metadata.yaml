@@ -8,7 +8,7 @@ abstract: |
 
 documentclass: article
 classoption:
-- draft
+#- draft
 #- twocolumn
 #- landscape
 papersize: a4
@@ -28,6 +28,4 @@ pagestyle: empty
 # pagestyle: eheadings
 indent: true
 toc: true
-fignos-cleveref: True
-tablenos-cleveref: True
 ...

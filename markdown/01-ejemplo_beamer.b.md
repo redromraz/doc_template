@@ -8,8 +8,8 @@ Este es otro párrafo y a continuación una lista:
 
 1. uno
 2. dos
-#. tres
-#. cuatro
+#. Tres
+#. Cuatro
    * anidado
    - anidado dos
       + anidado cuadrado
@@ -17,13 +17,13 @@ Este es otro párrafo y a continuación una lista:
 
 ## Diapositiva de tabla
 
-La tabla @tbl:1 es un ejemplo
+La tabla es un ejemplo
 
-encabezado otro  y otro
+Encabezado otro  y otro
 ---------- ----  ------
 una fila   misma y misma
 
-:Ejemplo de una tabla {#tbl:1}
+:Ejemplo de una tabla
 
 ## Diapositiva de código
 
@@ -44,10 +44,10 @@ Luego una pausa
 
 . . .
 
-la siguiente es una formula presentada $$a=\sqrt{c^2-b^2}$$
+La siguiente es una formula presentada $$a=\sqrt{c^2-b^2}$$
 
 ## Diapositiva de imágenes
-La @fig:2 muestra a Lenna. Hola, Lenna
+La muestra a Lenna. Hola, Lenna
 
-![Esta es una foto de Lenna.](images/lenna.png){#fig:2}
+![Esta es una foto de Lenna.](images/lenna.png)
 
