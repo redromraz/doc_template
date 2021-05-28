@@ -1,0 +1,18 @@
+---
+title: Título_de_presentación
+author: Eduardo Romero Arzate
+date: nov 07, 2020
+abstract: |
+  este es un resumen
+  y tiene dos parrafos
+
+toc: true
+hyperrefoptions:
+- linktoc=all
+aspectratio: 169
+fontfamily: noto
+fontsize: 12pt
+theme:     Berkeley
+fonttheme: structurebold
+...
+

@@ -1,0 +1,30 @@
+% idioma
+\usepackage[spanish, mexico]{babel}
+% separación entre parrafos
+\setlength{\parskip}{\baselineskip} 
+% sin número de página
+\pagenumbering{gobble}
+%Para referencias de figuras y tablas
+\usepackage{cleveref}
+\crefname{table}{Tabla}{tables}
+\crefname{figure}{Figura}{figs.}
+
+% header y footer
+\usepackage{titleps}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lipsum}
+
+\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{30pt}
+\renewcommand{\headrulewidth}{4pt}
+\renewcommand{\footrulewidth}{2pt}
+%\fancyhead[L]{\includegraphics[width=1cm]{example-image-a}}
+\fancyhead[C]{}
+\fancyhead[R]{\rightmark}
+\fancyfoot[L]{LSVP}
+\fancyfoot[C]{\textcopyright CC}
+\fancyfoot[R]{\thepage}
+

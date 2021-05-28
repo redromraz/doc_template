@@ -1,0 +1,88 @@
+= Titulo de documento
+:Author:       Eduardo Romero Arzate
+:Email:        ed93ra@gmail.com
+:Date:         26-12-2020
+:Revision:     2020
+:icons:        font
+:toc:          left
+:imagesdir:    images
+:stylesdir:    styles/css
+:stylesheet:   adoc-colony.css
+
+== Encabezado
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd 
+gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+_texto en italicas_
+**texto bold**
++texto mono+
+
+== Código
+
+.parrafo literal
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
+ oluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita 
+ kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+.bloque de código fuente
+[source]
+....
+for i in $(echo oso perro); do
+   echo $i
+done
+....
+
+== Notas y warnings
+
+NOTE: Esta es una nota
+
+TIP: este es un tip
+
+IMPORTANT: este es un tip
+
+WARNING: este es un tip
+
+CAUTION: este es un tip
+
+.bloque de ejemplo
+=====
+*Ejemplo:*
+Este es un ejemplo
+=====
+
+== Links
+http://google.com
+
+.bloque de imagen
+image::lenna.png[Esta es Lena]
+
+== Tablas
+
+.CSV data, 15% each column
+[format="csv",width="60%",cols="4"]
+[frame="topbot",grid="none"]
+|======
+1,2,3,4
+a,b,c,d
+A,B,C,D
+|======
+
+.Multiline cells, row/col span
+|====
+|Date |Duration |Avg HR |Notes
+
+|22-Aug-08 .2+^.^|10:24 | 157 |
+Worked out MSHR (max sustainable
+heart rate) by going hard
+for this interval.
+
+|22-Aug-08 | 152 |
+Back-to-back with previous interval.
+
+|24-Aug-08 3+^|none
+
+|====
+
