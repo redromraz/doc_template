@@ -10,7 +10,7 @@ toc: true
 hyperrefoptions:
 - linktoc=all
 aspectratio: 169
-fontfamily: noto
+fontfamily: DejaVuSans
 fontsize: 12pt
 theme:     Berkeley
 fonttheme: structurebold
